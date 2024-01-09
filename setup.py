@@ -5,7 +5,7 @@ setup(
     version="0.0.1",
     author="Abhishek Saini",
     author_email="shekabhi1208@gmail.com",
-    packages=find_packages(exclude=["calculator/test"]),
+    packages=find_packages(['calculator']),
     description="simple calculator",
     url="https://github.com/Abhishek-1208/python-temp-library",
     install_requires=[],
